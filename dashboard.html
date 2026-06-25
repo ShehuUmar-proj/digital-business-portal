@@ -1,0 +1,95 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Dashboard - BizReg</title>
+    <link rel="stylesheet" href="assets/styles.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+</head>
+<body>
+    <nav class="navbar">
+        <div class="navbar-container">
+            <div class="navbar-logo"><i class="fas fa-briefcase"></i> BizReg</div>
+            <ul class="navbar-menu">
+                <li><a href="index.html" class="nav-link">Home</a></li>
+                <li><a href="register.html" class="nav-link">Register</a></li>
+                <li><a href="compliance.html" class="nav-link">Compliance</a></li>
+                <li><a href="resources.html" class="nav-link">Resources</a></li>
+                <li><a href="support.html" class="nav-link">Support</a></li>
+                <li><a href="login.html" class="nav-link">Login</a></li>
+            </ul>
+            <div class="hamburger"><span></span><span></span><span></span></div>
+        </div>
+    </nav>
+
+    <div class="dashboard-container">
+        <div class="dashboard-header">
+            <h1>Welcome, Chioma Okonkwo</h1>
+            <div class="dashboard-top-icons">
+                <div class="notification-icon"><i class="fas fa-bell"></i><span class="badge">3</span></div>
+                <div class="settings-icon"><i class="fas fa-cog"></i></div>
+            </div>
+        </div>
+
+        <div class="container">
+            <section class="dashboard-section">
+                <h2>Registration Status</h2>
+                <div class="registration-tracker">
+                    <div class="tracker-step completed"><div class="step-circle"><i class="fas fa-check"></i></div><p>Business Type</p></div>
+                    <div class="tracker-step completed"><div class="step-circle"><i class="fas fa-check"></i></div><p>Owner Details</p></div>
+                    <div class="tracker-step completed"><div class="step-circle"><i class="fas fa-check"></i></div><p>Name</p></div>
+                    <div class="tracker-step"><div class="step-circle">4</div><p>Documents</p></div>
+                    <div class="tracker-step"><div class="step-circle">5</div><p>Payment</p></div>
+                </div>
+                <div class="progress-bar-full"><div class="progress-fill" style="width: 60%;"></div></div>
+                <p class="progress-text">Progress: 60%</p>
+            </section>
+
+            <section class="quick-stats">
+                <div class="stat-card"><i class="fas fa-file"></i><h3>Documents</h3><p class="stat-number">8</p></div>
+                <div class="stat-card"><i class="fas fa-calendar"></i><h3>Deadlines</h3><p class="stat-number">2</p></div>
+                <div class="stat-card"><i class="fas fa-bell"></i><h3>Notifications</h3><p class="stat-number">3</p></div>
+                <div class="stat-card"><i class="fas fa-check-circle"></i><h3>Status</h3><p class="stat-number">Good</p></div>
+            </section>
+
+            <section class="dashboard-section">
+                <h2>Document Vault</h2>
+                <div class="documents-table">
+                    <table>
+                        <thead>
+                            <tr>
+                                <th>Document</th><th>Type</th><th>Date</th><th>Status</th>
+                            </tr>
+                        </thead>
+                        <tbody>
+                            <tr>
+                                <td>National ID</td><td>ID</td><td>2024-01-15</td><td><span class="badge-success">Verified</span></td>
+                            </tr>
+                            <tr>
+                                <td>Tax Document</td><td>Tax</td><td>2024-01-14</td><td><span class="badge-success">Verified</span></td>
+                            </tr>
+                        </tbody>
+                    </table>
+                </div>
+            </section>
+
+            <section class="dashboard-section">
+                <h2>Compliance Calendar</h2>
+                <div class="compliance-deadlines">
+                    <div class="deadline-card urgent"><div class="deadline-date">15 Days</div><h3>Tax Filing</h3><button class="btn btn-small">Set Reminder</button></div>
+                    <div class="deadline-card warning"><div class="deadline-date">30 Days</div><h3>Annual Return</h3><button class="btn btn-small">Set Reminder</button></div>
+                </div>
+            </section>
+        </div>
+    </div>
+
+    <footer class="footer">
+        <div class="footer-container">
+            <div class="footer-section"><h4>Support</h4><ul><li><a href="support.html">Contact</a></li></ul></div>
+        </div>
+        <div class="footer-bottom"><p>&copy; 2024 BizReg.</p></div>
+    </footer>
+    <script src="assets/script.js"></script>
+</body>
+</html>

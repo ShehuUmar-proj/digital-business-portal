@@ -1,0 +1,91 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Resources - BizReg</title>
+    <link rel="stylesheet" href="assets/styles.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+</head>
+<body>
+    <nav class="navbar">
+        <div class="navbar-container">
+            <div class="navbar-logo"><i class="fas fa-briefcase"></i> BizReg</div>
+            <ul class="navbar-menu">
+                <li><a href="index.html" class="nav-link">Home</a></li>
+                <li><a href="register.html" class="nav-link">Register</a></li>
+                <li><a href="compliance.html" class="nav-link">Compliance</a></li>
+                <li><a href="resources.html" class="nav-link active">Resources</a></li>
+                <li><a href="support.html" class="nav-link">Support</a></li>
+                <li><a href="login.html" class="nav-link">Login</a></li>
+            </ul>
+            <div class="hamburger"><span></span><span></span><span></span></div>
+        </div>
+    </nav>
+
+    <div class="container resources-page">
+        <h1>Business Resources</h1>
+
+        <section class="resource-section">
+            <h2>Knowledge Base</h2>
+            <div class="resource-tabs">
+                <button class="tab-button active" data-tab="articles">Articles</button>
+                <button class="tab-button" data-tab="videos">Videos</button>
+                <button class="tab-button" data-tab="faqs">FAQs</button>
+            </div>
+            <div class="tab-content active" id="articles-tab">
+                <div class="articles-grid">
+                    <div class="resource-card"><h3>Getting Started</h3><p>Learn business registration basics</p></div>
+                    <div class="resource-card"><h3>Tax Compliance</h3><p>Complete tax compliance guide</p></div>
+                    <div class="resource-card"><h3>Document Storage</h3><p>Best practices for storage</p></div>
+                </div>
+            </div>
+        </section>
+
+        <section class="resource-section" id="funding">
+            <h2>Funding Hub</h2>
+            <div class="funding-grid">
+                <div class="funding-card">
+                    <div class="funding-icon"><i class="fas fa-university"></i></div>
+                    <h3>Government Grants</h3>
+                    <p>Access government grants for SMEs</p>
+                </div>
+                <div class="funding-card">
+                    <div class="funding-icon"><i class="fas fa-handshake"></i></div>
+                    <h3>Loans & Credit</h3>
+                    <p>Flexible loan options</p>
+                </div>
+                <div class="funding-card">
+                    <div class="funding-icon"><i class="fas fa-rocket"></i></div>
+                    <h3>Startup Programs</h3>
+                    <p>Special startup funding</p>
+                </div>
+            </div>
+        </section>
+
+        <section class="resource-section" id="mentorship">
+            <h2>Mentorship</h2>
+            <div class="mentors-list">
+                <div class="mentor-card">
+                    <h4>Business Strategy Expert</h4>
+                    <p class="specialty">15+ years experience</p>
+                    <button class="btn btn-secondary small">Book Session</button>
+                </div>
+                <div class="mentor-card">
+                    <h4>Finance & Accounting</h4>
+                    <p class="specialty">Chartered Accountant</p>
+                    <button class="btn btn-secondary small">Book Session</button>
+                </div>
+            </div>
+        </section>
+    </div>
+
+    <footer class="footer">
+        <div class="footer-container">
+            <div class="footer-section"><h4>Support</h4><ul><li><a href="support.html">Contact</a></li></ul></div>
+        </div>
+        <div class="footer-bottom"><p>&copy; 2024 BizReg.</p></div>
+    </footer>
+    <script src="assets/script.js"></script>
+</body>
+</html>

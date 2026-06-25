@@ -1,0 +1,74 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Compliance - BizReg</title>
+    <link rel="stylesheet" href="assets/styles.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+</head>
+<body>
+    <nav class="navbar">
+        <div class="navbar-container">
+            <div class="navbar-logo"><i class="fas fa-briefcase"></i> BizReg</div>
+            <ul class="navbar-menu">
+                <li><a href="index.html" class="nav-link">Home</a></li>
+                <li><a href="register.html" class="nav-link">Register</a></li>
+                <li><a href="compliance.html" class="nav-link active">Compliance</a></li>
+                <li><a href="resources.html" class="nav-link">Resources</a></li>
+                <li><a href="support.html" class="nav-link">Support</a></li>
+                <li><a href="login.html" class="nav-link">Login</a></li>
+            </ul>
+            <div class="hamburger"><span></span><span></span><span></span></div>
+        </div>
+    </nav>
+
+    <div class="container compliance-page">
+        <h1>Compliance Management</h1>
+
+        <section class="compliance-alerts">
+            <h2>Dashboard Alerts</h2>
+            <div class="alerts-grid">
+                <div class="alert-box urgent"><div class="alert-icon"><i class="fas fa-exclamation-circle"></i></div><div class="alert-content"><h3>Tax Filing</h3><p>Due in <strong>15 Days</strong></p></div></div>
+                <div class="alert-box warning"><div class="alert-icon"><i class="fas fa-clock"></i></div><div class="alert-content"><h3>Annual Return</h3><p>Due in <strong>30 Days</strong></p></div></div>
+                <div class="alert-box"><div class="alert-icon"><i class="fas fa-calendar"></i></div><div class="alert-content"><h3>License Renewal</h3><p>Due in <strong>90 Days</strong></p></div></div>
+            </div>
+        </section>
+
+        <section class="reminder-settings">
+            <h2>Reminder Settings</h2>
+            <div class="settings-cards">
+                <div class="setting-card">
+                    <h3><i class="fas fa-envelope"></i> Email Reminders</h3>
+                    <div class="toggle-switch"><input type="checkbox" id="emailToggle" checked><label for="emailToggle"></label></div>
+                </div>
+                <div class="setting-card">
+                    <h3><i class="fas fa-sms"></i> SMS Reminders</h3>
+                    <div class="toggle-switch"><input type="checkbox" id="smsToggle"><label for="smsToggle"></label></div>
+                </div>
+                <div class="setting-card">
+                    <h3><i class="fas fa-comment"></i> WhatsApp</h3>
+                    <div class="toggle-switch"><input type="checkbox" id="whatsappToggle"><label for="whatsappToggle"></label></div>
+                </div>
+            </div>
+        </section>
+
+        <section class="calendar-export">
+            <h2>Export Calendar</h2>
+            <div class="export-buttons">
+                <button class="btn btn-secondary"><i class="fab fa-google"></i> Google Calendar</button>
+                <button class="btn btn-secondary"><i class="fab fa-microsoft"></i> Outlook</button>
+                <button class="btn btn-secondary"><i class="fab fa-apple"></i> Apple Calendar</button>
+            </div>
+        </section>
+    </div>
+
+    <footer class="footer">
+        <div class="footer-container">
+            <div class="footer-section"><h4>Support</h4><ul><li><a href="support.html">Contact</a></li></ul></div>
+        </div>
+        <div class="footer-bottom"><p>&copy; 2024 BizReg.</p></div>
+    </footer>
+    <script src="assets/script.js"></script>
+</body>
+</html>
